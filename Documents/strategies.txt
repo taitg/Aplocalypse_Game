@@ -1,0 +1,26 @@
+
+Some possible strategies:
+-------------------------
+
+Greedy          captures whenever possible
+                else moves randomly? moves towards closest enemy? moves furthest-ahead piece?
+
+Defensive       never moves (except knights?) only captures
+
+Random          moves and captures randomly (only valid moves?)
+
+Safe            never moves to a vulnerable cell, else moves/captures randomly
+
+Coward	        passes every turn
+
+Cheater/noob    always tries to make illegal moves
+
+Slow march      advance all pieces in a group
+                (always move furthest-back piece that has a valid move, else random)
+
+Lazy knights    only move and capture with pawns
+
+Stagger pawns   try to arrange pawns to protect each other
+                (if pawn adjacent to another pawn, move 1 forward, else random?)
+                like this:      x x x
+                                 x x 
